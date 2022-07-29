@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav div{
+    display: flex;
+    background: rgb(99, 97, 230);
+    border: 5px rgb(75, 92, 165) solid;
+    
+}
+
+nav div ul{
+
+    list-style: none;
+    display: flex;
+    word-wrap: break-word;
+    margin-left: 15%;
+    
+    
+}
+
+nav div ul li a, span h3 a{
+    color: rgb(218, 219, 240);
+    text-decoration: none;
+}
+span h3{
+    margin-top: 20px;
+}
+
+span h3 a{
+    padding: 20px 0;
+}
+nav div ul li{
+
+    margin-right: 10px !important;
+    margin-top: 5px !important;
+}   
+
+nav div ul li a{
+    
+    padding: 25px 0 !important;
+}
+
+nav div ul li a:hover{
+    color: rgb(115, 126, 177);
+    background: rgb(62, 70, 104);
+}
+
+
+nav div span{
+    margin-left: 50px;
+}
+
+nav{
+    margin-bottom: 50px;
+}
+div div{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#data-sender{
+    text-align: center;
+}
+
+#reg-form{
+    text-align: center;
+    
+}
+.footer{
+    text-align: center;
+}
+
+span p{
+    text-align: center;
+}
+span.user-data p{
+    text-align: center;
+}
+
+h2,h1{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.error-msg{
+    padding-bottom: 10px;
+    color: rgb(214, 41, 41);
+    text-align: center;
+}
+.articles{
+    text-align: center;
+
+}
+
+.article{
+    display: inline-block;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+    margin: 10px 10px;
+    min-width: 45%;
+    max-width: 45%;
+    min-height: 300px;
+    border: 2px solid black;
+    vertical-align: middle;
+    
+    
+}
+.article a.title{
+    display: block;
+    text-align: left;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 10px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: black;
+}
+a.text{
+    text-align: left;
+    word-wrap: break-word;
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+a.text:hover{
+    color: black;
+}
+
+.article a.date{
+    display: block;
+    text-align: left;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+span.id{
+    display: block;
+    margin: 15px;
+    text-align: left;
+}
+form{
+    display: inline;
+}
+div h2.article-editor-label{
+    font-family: Georgia;
+    font-weight: 1000;
+}
+
+.edit-form form{
+    text-align: center;
+}
+
+.edit-form form span{
+    vertical-align: top;
+    
+}
+.edit-form form div{
+    margin: 10px;
+}
+.edit-form form textarea{
+    word-break: break-all;
+}
+.edit-form form span.id{
+    display: block;
+    text-align: center;
+}
+
+.edit-form form button{
+    display: inline;
+}
+    
+div h2.article-add-label{
+    font-family: Georgia;
+    font-weight: 1000;
+}
+
+
+
+
+.add-form form{
+    text-align: center;
+}
+
+.add-form form span{
+    vertical-align: top;
+    
+}
+.add-form form div{
+    margin: 10px;
+}
+.add-form form textarea{
+    word-break: break-all;
+}
+.add-form form span.id{
+    display: block;
+    text-align: center;
+}
+
+.add-form form button{
+    display: inline;
+}
+
+
+
+.add-article{
+    text-align: center;
+    
+}
+.add-article button{
+    text-align: center;
+    border: none;
+    background-color: rgb(92, 92, 189);
+    border-radius: 10px;
+}
+.add-article button:hover{
+    background-color: rgb(59, 59, 126);
+    border-radius: 3px;
+    
+}
+.add-article button a{
+    text-decoration: none;
+    color: black;
+}
+.add-article button a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+button a.delete, a.edit{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+button a.delete:hover, button a.edit:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+form button{
+    text-align: center;
+    display: block;
+    border: none;
+    background-color: rgb(92, 92, 189);
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+form button:hover{
+    border-radius: 3px;
+    background-color: rgb(59, 59, 126);
+}
+
+span.symbol-count{
+    display: block;
+    text-align: right;
+    margin-right: 300px;
+}
+
+div.panel button{
+    display: inline;
+    margin: 0 auto;
+    background-color: rgb(92, 92, 189);
+    border-radius: 10px;
+    border:none;
+}
+div.panel{
+    text-align: center;
+}
+div.panel button a{
+    text-decoration: none;
+    color: black;
+}
+
+div.panel button:hover{
+    background-color: rgb(59, 59, 126);
+    border-radius: 3px;
+}
+
+div.users{
+    text-align: center;
+}
+
+div.user span{
+    display: block;
+    text-align: left;
+}
+div.user{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 15px;
+    text-align: left;
+    min-width: 200px;
+}
+
+div.user button{
+    display: inline;
+    margin: 0 auto;
+    background-color: rgb(92, 92, 189);
+    border-radius: 10px;
+    border:none;
+}
+div.user button a{
+    text-decoration: none;
+    color: black;
+}
+
+div.user button:hover{
+    background-color: rgb(59, 59, 126);
+    border-radius: 3px;
+}
+
